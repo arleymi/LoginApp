@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		9749EB14269842B50005801C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB13269842B50005801C /* AppDelegate.swift */; };
 		9749EB16269842B50005801C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB15269842B50005801C /* SceneDelegate.swift */; };
-		9749EB18269842B50005801C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB17269842B50005801C /* ViewController.swift */; };
+		9749EB18269842B50005801C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB17269842B50005801C /* LoginViewController.swift */; };
 		9749EB1B269842B50005801C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9749EB19269842B50005801C /* Main.storyboard */; };
 		9749EB1D269842B60005801C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9749EB1C269842B60005801C /* Assets.xcassets */; };
 		9749EB20269842B60005801C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9749EB1E269842B60005801C /* LaunchScreen.storyboard */; };
+		9749EB2A2698479C0005801C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB292698479C0005801C /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9749EB10269842B50005801C /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9749EB13269842B50005801C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9749EB15269842B50005801C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9749EB17269842B50005801C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9749EB17269842B50005801C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9749EB1A269842B50005801C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9749EB1C269842B60005801C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9749EB1F269842B60005801C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9749EB21269842B60005801C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9749EB292698479C0005801C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				9749EB13269842B50005801C /* AppDelegate.swift */,
 				9749EB15269842B50005801C /* SceneDelegate.swift */,
-				9749EB17269842B50005801C /* ViewController.swift */,
+				9749EB17269842B50005801C /* LoginViewController.swift */,
+				9749EB292698479C0005801C /* WelcomeViewController.swift */,
 				9749EB19269842B50005801C /* Main.storyboard */,
 				9749EB1C269842B60005801C /* Assets.xcassets */,
 				9749EB1E269842B60005801C /* LaunchScreen.storyboard */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9749EB18269842B50005801C /* ViewController.swift in Sources */,
+				9749EB18269842B50005801C /* LoginViewController.swift in Sources */,
+				9749EB2A2698479C0005801C /* WelcomeViewController.swift in Sources */,
 				9749EB14269842B50005801C /* AppDelegate.swift in Sources */,
 				9749EB16269842B50005801C /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LoginApp.LoginApp;
+				PRODUCT_BUNDLE_IDENTIFIER = SigninApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LoginApp.LoginApp;
+				PRODUCT_BUNDLE_IDENTIFIER = SigninApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
